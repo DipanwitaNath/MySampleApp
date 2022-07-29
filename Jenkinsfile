@@ -2,17 +2,17 @@ pipeline {
   agent any
      stages {
        stage ("build") {
-         step {
+         steps {
            echo "build stage is in progress"
          }
        }
        stage ("test") {
-         step {
+         steps {
            echo "test stage is in progress"
          }         
        }
        stage ("deploy") {
-         step {
+         steps {
            echo "deploy stage is in progress"
          }         
        }       
