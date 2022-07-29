@@ -13,7 +13,7 @@ pipeline {
        stage ("test") {
          steps {
            echo "test stage is in progress"
-           echo "jenkins automation test" 
+           echo "jenkins automation test again" 
          }         
        }
        stage ("deploy") {
